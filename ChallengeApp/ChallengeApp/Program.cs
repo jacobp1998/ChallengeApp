@@ -17,11 +17,11 @@ if(female==false && age<30)
 {
     Console.WriteLine("Kobieta poniżej  30 lat");
 }
-if (name == "Ewa" && age2 == 33)
+else if  (name == "Ewa" && age2 == 33)
 {
     Console.WriteLine("Ewa, lat 33");
 }
-if (male == true && age3 < 18)
+else if  (male == true && age3 < 18)
 {
     Console.WriteLine("Niepełnoletni mężczyzna");
 }
